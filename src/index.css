@@ -126,10 +126,30 @@
   }
 
   .workout-card {
-    @apply bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-200;
+    @apply bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02];
   }
 
   .streak-badge {
     @apply inline-flex items-center gap-1 bg-achievement-gold/10 text-achievement-gold border border-achievement-gold/20 rounded-full px-3 py-1 text-sm font-medium;
+  }
+
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl;
+  }
+
+  .ai-chat-message {
+    @apply bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-md border border-border/50;
+  }
+
+  .user-message {
+    @apply bg-gradient-to-r from-energetic-orange to-achievement-gold text-white rounded-2xl p-4 ml-auto max-w-[80%];
+  }
+
+  .mobile-nav {
+    @apply fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-lg border-t border-border/50 p-4 z-50;
+  }
+
+  .premium-gradient {
+    @apply bg-gradient-to-r from-fitness-purple via-athletic-blue to-energetic-orange;
   }
 }
