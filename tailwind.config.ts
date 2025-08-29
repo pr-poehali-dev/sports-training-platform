@@ -61,7 +61,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'energetic-orange': '#FF6B35',
+				'athletic-blue': '#2E86AB',
+				'achievement-gold': '#F18F01',
+				'dark-charcoal': '#F18FF2',
+				'fitness-purple': '#1AFFFF'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
